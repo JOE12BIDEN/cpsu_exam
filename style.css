@@ -1,0 +1,35 @@
+.custom-control-input:checked~.custom-control-label:before,
+.custom-control-input:disabled:checked~.custom-control-label:before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.custom-control-input:disabled~.custom-control-label:before {
+    background-color: #007bff;
+    color: transparent;
+    border-color: #077bff;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    color: #28a745 !important;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
